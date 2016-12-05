@@ -1,0 +1,5 @@
+Ta7291p	KEYWORD1
+commitPwm	KEYWORD2
+applyBrake	KEYWORD2
+fetchPwm	KEYWORD2
+isBraked	KEYWORD2
