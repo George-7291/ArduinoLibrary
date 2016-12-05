@@ -45,9 +45,9 @@ void setup() {
 
 void loop() {
   tmp->commitPwm(255); //モータを正回転
-  delay(6900);
+  delay(1000);
   tmp->commitPwm(-255); //モータを逆回転
-  delay(5000);
+  delay(1000);
 }
 ~~~
 
