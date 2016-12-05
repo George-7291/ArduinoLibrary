@@ -34,9 +34,9 @@
 #include <DriverIcForMotor.h>
 #include <Ta7291p.h>
 
-int analog_out = 9;
-int digital_out1 = 8;
-int digital_out2 = 7;
+int analog_out = 9;		//アナログ出力に対応しているPin
+int digital_out1 = 8;	//デジタルPin
+int digital_out2 = 7;	//デジタルPin
 
 DriverIcForMotor* tmp = new Ta7291p(analog_out, digital_out1, digital_out2);
 
