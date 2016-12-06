@@ -5,7 +5,7 @@
 
 #### メソッド
 |修飾子と型|メソッド|説明|
-|:-|:----:|:---|
+|:-----|:----:|:---|
 |`virtual void`|`commitPwm(int pwm)`|モータを回すためのメソッド。引数`pwm`に回したい速さの値を入れる。|
 |`virtual void`|`applyBrake(bool brake)`|モータのブレーキの設定をする。`brake`が`true`でブレーキモード、`false`でフロートモード。|
 |`virtual int`|`fetchPwm(void)`|現在セットされているPWMの値を取得する。|
@@ -22,7 +22,7 @@
 
 #### メソッド
 |修飾子と型|メソッド|説明|
-|:-|:----:|:---|
+|:---|:----:|:---|
 ||`Ta7291p(int pin4, int pin5, int pin6)`|コンストラクタ。それぞれICのpin4,pin5,pin6に接続しているArduino側のピン番号を指定してインスタンスを作る。|
 |`void`|`commitPwm(int pwm)`|モータを回すためのメソッド。引数`pwm`に回したい速さの値を入れる。（-255 ~ 255）|
 |`void`|`applyBrake(bool brake)`|モータのブレーキの設定をする。`brake`が`true`でブレーキモード、`false`でフロートモード。|
